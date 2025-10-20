@@ -101,27 +101,31 @@
     </div>
 </div>
 
-
-
     <footer>
-        <div class="icone">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-github"></i>
-            <i class="bi bi-linkedin"></i>
-        </div>
-        <p>Copyright ©2025 Todos os direitos reservados</p>
-        
-    <h1>Contato</h1>
-    <label>Nome:</label>
-    <input type="text" placeholder="Digite seu Nome" required>
-    <label>Email:</label>
-    <input type="email" placeholder="Digite seu Email" required>
-    <label>Cargo:</label>
-    <input type="text" placeholder="Digite seu Cargo" required>
-    <button type="button">Enviar</button>
+    <div class="contato">
+        <h1>Contato</h1>
+        <form id="form-contato">
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu Nome" required>
 
-    </footer>
+            <label>Email:</label>
+            <input type="email" id="email" placeholder="Digite seu Email" required>
 
+            <label >Cargo:</label>
+            <input type="text" id="cargo" placeholder="Digite seu Cargo" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="icone">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-github"></i>
+        <i class="bi bi-linkedin"></i>
+    </div>
+    <p>Copyright ©2025 Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
